@@ -1,0 +1,368 @@
+/* CSS Document */
+body {
+ 	background: #964338;
+ 	color: #FDF3E7;
+ 	font-size: 1.8rem;
+}
+
+a {
+	color:#fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+
+}
+
+a:hover {
+	color:#FFF;
+	text-decoration: underline;
+}
+
+#logo {
+	margin: 15px;
+	float: left;
+	width: 400px;
+	height: 90px;
+
+}
+
+#mailp {
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#headerh4 {
+	font-size:2.8rem;
+
+}
+
+#shrinkText1 {
+	color: #000;
+	font-size:5.8rem;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	padding-top:100px;
+	text-align: center;
+	
+}
+
+#shrinkText2 {
+	color: #000;
+	font-size:1.8rem;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	text-align: center;
+	padding:0 0 80px 0;
+	
+}
+
+.shrinkBanner {
+	height: 400px;
+}
+
+header {
+	background: #964338;
+	width: 100%;
+	height: 80px;
+	position:fixed;
+	top: 0;
+	left: 0;
+	z-index:100%;
+	opacity:0.90;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+nav {
+	float: right;
+	padding: 0px 60px 20px 0px;
+}
+
+#menu-icon {
+	display: hidden;
+	width:	40px;
+	height: 40px;
+	background: url(../../ResumeSite/images/menuicon.png) center;
+}
+
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0 ;
+}
+
+ul {
+	list-style: none;
+}
+
+.ulh6 {
+	font-size:2.5rem;
+}
+
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 20px;
+}
+
+#bannerContent ul li{
+	text-align: center;
+	display: inline-block;
+	padding: 20px;
+}
+
+#bannerContent {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: #FDF3E7;
+	height:100%;
+	width:100%;
+}
+
+
+.icon-link,.icon-link:visited{
+	color: #3B3738;
+}
+.icon-link:hover{
+	color:#964338;
+}
+
+li {
+	list-style-type: square;
+  	color: #964338; 
+}
+li span {
+  	color: #FDF3E7;
+}
+
+.resumeContent {
+	background:#7E8F7C;
+	padding-left: 20px;
+}
+
+.jobTitle {
+	color:	#3B3738;
+	font-weight: bold;
+}
+
+.titleh5 {
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:2.0rem;
+}
+
+hr {
+	background-color: #964338;
+ 	height: 1px;
+ 	border: 0; 
+ 	width:90%;
+}
+
+.resumeContent {
+	padding-top: 20px;
+}
+
+.edpad {
+	padding-top: 40px;
+}
+
+.colpad {
+	padding-top:30px;
+}
+
+.image { 
+  	width: 1400px;
+  	height: 700px;
+  	background: url(../../ResumeSite/images/banner5.jpg);
+  	margin-left: auto ;
+  	margin-right: auto ; 
+}
+
+h2 { 
+   	position: absolute; 
+   	top: 100px; 
+   	padding-left: 400px; 
+   	width: 100%; 
+}
+
+h2 span { 
+   	color: white; 
+   	font: bold 24px/45px Helvetica, Sans-Serif; 
+   	letter-spacing: -1px;  
+   	background: rgb(0, 0, 0); /* fallback color */
+   	background: rgba(0, 0, 0, 0.7);
+   	padding: 10px; 
+}
+
+.transbox {
+	
+	margin-left: 200px;
+	margin-top:250px;
+	border-radius: 15px 50px;
+	width:600px;
+	height:170px;
+   	background-color: #ffffff;
+   	opacity: 0.6;
+   	filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox p {
+  	margin: 10% 5% 10% 5%;
+  	font-weight: bold;
+  	font-family: 'Carrois Gothic SC', sans-serif;
+  	font-style: italic;
+  	color: #000000;
+}
+
+.skillsContent {
+	padding-top:5px;
+	padding-bottom: 20px;
+	background: #3B3738; 
+	font-size: 1.8rem;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+.skillsTitle {
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:2.0rem;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.skillsp {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:2.0rem;
+	text-align: center;
+}
+
+.projectsContent {
+	padding: 50px 0px 50px 0px;
+	background-color: #FDF3E7;
+}
+
+.projTitle {
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:2.0rem;
+	font-weight: bold;
+	padding-left: 20px;
+	color:#964338 ;
+}
+
+.projectp{
+	color: #3B3738;
+	padding-left: 20px;
+}
+
+.pbold {
+	font-weight: bold;
+}
+
+#footer {
+	
+	height: 200px;
+	background: #964338;
+	color: #3B3738;
+	font-weight: bold;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	font-size:2.0rem;
+}
+
+#footer p{
+	margin: 90px 0px 90px 0px;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+
+
+@media screen and (min-width: 720px)and (max-width: 1200px) {
+    .image{
+        background-image: url('../../ResumeSite/images/tablet.jpg');
+		width: 700px;
+		height: 500px;
+    }
+
+    .colpad {
+    	padding-top: 0px;
+    }
+
+    .edpad {
+		padding-top: 0px;
+	}
+
+
+    .transbox {
+	border-radius: 15px 50px;
+	margin-left: 10px;
+	margin-top:10px;
+	width:500px;
+	height:150px;
+   	background-color: #ffffff;
+   	opacity: 0.6;
+   	filter: alpha(opacity=60); /* For IE8 and earlier */
+	}
+
+	.transbox p {
+  	margin: 10% 5% 10% 5%;
+  	font-family: 'Carrois Gothic SC', sans-serif;
+  	text-align: center;
+  	font-style: italic;
+  	color: #000000;
+  	font-size: 1.5rem;
+  	font-weight: bold;
+	} 
+   
+}
+
+@media screen and (max-width: 950px) {
+	.colpad {
+    	padding-top: 0px;
+    }
+    .edpad {
+		padding-top: 0px;
+	}
+
+	header {
+		position: absolute;
+	}
+
+	#menu-icon {
+		display: inline-block;
+		margin-top: 20px;
+		border-radius: 5px 5px 5px 5px;
+	}
+
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #7E8F7C;
+		border: 1px solid #fff;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100 px;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+
+
+}
+
+
+
+
+
+
+
+
