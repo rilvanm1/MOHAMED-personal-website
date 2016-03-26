@@ -1,6 +1,11 @@
 /* CSS Document */
+
 body {
- 	background: #964338;
+	background: #964338;
+}
+
+#content{
+ 	background:#7E8F7C;
  	color: #FDF3E7;
  	font-size: 1.8rem;
 }
@@ -62,8 +67,8 @@ a:hover {
 header {
 	background: #964338;
 	width: 100%;
+	position: absolute;
 	height: 80px;
-	position:fixed;
 	top: 0;
 	left: 0;
 	z-index:100%;
@@ -81,7 +86,7 @@ nav {
 	display: hidden;
 	width:	40px;
 	height: 40px;
-	background: url(../../ResumeSite/images/menuicon.png) center;
+	background: url(../../MohamedResumeSite/images/menuicon.png) center;
 }
 
 a:hover#menu-icon {
@@ -113,7 +118,6 @@ nav ul li {
 	padding-top: 100px;
 	padding-bottom: 50px;
 	background: #FDF3E7;
-	height:100%;
 	width:100%;
 }
 
@@ -136,6 +140,7 @@ li span {
 .resumeContent {
 	background:#7E8F7C;
 	padding-left: 20px;
+	padding-top: 20px;
 }
 
 .jobTitle {
@@ -146,7 +151,7 @@ li span {
 .titleh5 {
 	font-weight: bold;
 	font-family: 'Carrois Gothic SC', sans-serif;
-	font-size:2.0rem;
+	font-size: 2.0rem;
 }
 
 hr {
@@ -154,10 +159,6 @@ hr {
  	height: 1px;
  	border: 0; 
  	width:90%;
-}
-
-.resumeContent {
-	padding-top: 20px;
 }
 
 .edpad {
@@ -171,7 +172,7 @@ hr {
 .image { 
   	width: 1400px;
   	height: 700px;
-  	background: url(../../ResumeSite/images/banner5.jpg);
+  	background: url(../../MohamedResumeSite/images/banner5.jpg);
   	margin-left: auto ;
   	margin-right: auto ; 
 }
@@ -237,7 +238,7 @@ h2 span {
 
 .projectsContent {
 	padding: 50px 0px 50px 0px;
-	background-color: #FDF3E7;
+	background-color: #FDF3E7;;
 }
 
 .projTitle {
@@ -255,6 +256,11 @@ h2 span {
 
 .pbold {
 	font-weight: bold;
+}
+
+
+footer{
+	background: #964338;
 }
 
 #footer {
@@ -278,7 +284,7 @@ h2 span {
 
 @media screen and (min-width: 720px)and (max-width: 1200px) {
     .image{
-        background-image: url('../../ResumeSite/images/tablet.jpg');
+        background-image: url('../../MohamedResumeSite/images/tablet.jpg');
 		width: 700px;
 		height: 500px;
     }
@@ -355,9 +361,8 @@ h2 span {
 	nav:hover ul {
 		display: block;
 	}
-
-
 }
+/*End css*/
 
 
 
