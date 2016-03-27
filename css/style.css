@@ -15,7 +15,6 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	font-family: 'Carrois Gothic SC', sans-serif;
-
 }
 
 a:hover {
@@ -28,7 +27,6 @@ a:hover {
 	float: left;
 	width: 400px;
 	height: 90px;
-
 }
 
 #mailp {
@@ -39,7 +37,6 @@ a:hover {
 
 #headerh4 {
 	font-size:2.8rem;
-
 }
 
 #shrinkText1 {
@@ -48,7 +45,6 @@ a:hover {
 	font-family: 'Carrois Gothic SC', sans-serif;
 	padding-top:100px;
 	text-align: center;
-	
 }
 
 #shrinkText2 {
@@ -86,7 +82,7 @@ nav {
 	display: hidden;
 	width:	40px;
 	height: 40px;
-	background: url(../../MohamedResumeSite/images/menuicon.png) center;
+	background: url(../../Mohamed-personal-website/images/menuicon.png) center;
 }
 
 a:hover#menu-icon {
@@ -172,7 +168,7 @@ hr {
 .image { 
   	width: 1400px;
   	height: 700px;
-  	background: url(../../MohamedResumeSite/images/banner5.jpg);
+  	background: url(../../Mohamed-personal-website/images/banner5.jpg);
   	margin-left: auto ;
   	margin-right: auto ; 
 }
@@ -284,7 +280,7 @@ footer{
 
 @media screen and (min-width: 720px)and (max-width: 1200px) {
     .image{
-        background-image: url('../../MohamedResumeSite/images/tablet.jpg');
+        background-image: url('../../Mohamed-personal-website/images/tablet.jpg');
 		width: 700px;
 		height: 500px;
     }
