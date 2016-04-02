@@ -6,4 +6,4 @@ The style.css in CSS folder contains cascading style sheets.
 Images are in the images folder.
 
 To view:
-copy the following url: https://rilvanm1.github.io/Mohamed-personal-website
+copy the following url: https://rilvanm1.github.io/MOHAMED-personal-website
