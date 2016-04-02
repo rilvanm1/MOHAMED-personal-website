@@ -82,7 +82,7 @@ nav {
 	display: hidden;
 	width:	40px;
 	height: 40px;
-	background: url(../../Mohamed-personal-website/images/menuicon.png) center;
+	background: url(../../MOHAMED-personal-website/images/menuicon.png) center;
 }
 
 a:hover#menu-icon {
@@ -168,7 +168,7 @@ hr {
 .image { 
   	width: 1400px;
   	height: 700px;
-  	background: url(../../Mohamed-personal-website/images/banner5.jpg);
+  	background: url(../../MOHAMED-personal-website/images/banner5.jpg);
   	margin-left: auto ;
   	margin-right: auto ; 
 }
@@ -280,7 +280,7 @@ footer{
 
 @media screen and (min-width: 720px)and (max-width: 1200px) {
     .image{
-        background-image: url('../../Mohamed-personal-website/images/tablet.jpg');
+        background-image: url('../../MOHAMED-personal-website/images/tablet.jpg');
 		width: 700px;
 		height: 500px;
     }
